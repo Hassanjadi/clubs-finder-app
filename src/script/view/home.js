@@ -6,9 +6,9 @@ const home = () => {
 
   const clubListContainerElement = document.querySelector("#clubListContainer");
   const clubQueryWaitingElement =
-    clubListContainerElement.querySelector(".query-waiting");
+    clubListContainerElement.querySelector("query-waiting");
   const clubLoadingElement =
-    clubListContainerElement.querySelector(".search-loading");
+    clubListContainerElement.querySelector("search-loading");
   const clubListElement = clubListContainerElement.querySelector("club-list");
 
   const showSportClub = (query) => {
